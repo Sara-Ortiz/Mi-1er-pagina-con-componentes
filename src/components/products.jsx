@@ -1,12 +1,16 @@
 import React from 'react';
 import '../components_style/products.css'; 
+// import productsData from '../dataJs/products.json'; // La ruta puede variar según tu estructura
+import productsData from '../dataJSON/joyasData.json'
 
 
-function ProductSection({ productsData }) { 
+function ProductSection() { 
   return (
     <section className="product-section">
       <div className="image-container">
-        <img src="https://media.istockphoto.com/id/1173006095/es/foto/rodar-sobre-perfume-en-botella-de-color-marr%C3%B3n-oscuro.jpg?s=612x612&w=0&k=20&c=0UL7LSmMIjruwqRTITfVUgFLfrDOY3zOc5Pzg7zDcOY=" alt="Colección Principal de Productos"/>
+         <img src="https://i.pinimg.com/1200x/4b/9d/4d/4b9d4dfb93e3ae8a43447c99c37b7457.jpg"/> 
+        {/* <img src="https://i.pinimg.com/1200x/ec/ca/a5/eccaa5b697fd5aa393afbb7245e76709.jpg"/>  */}
+
       </div>
 
       <h2>Nuestros Productos</h2>
@@ -15,11 +19,11 @@ function ProductSection({ productsData }) {
       <div className="grid">
         {productsData.map(product => (
           <div key={product.id} className="card">
-            <img src={product.image}/>
+            <img src={product.image_url}/>
             <div className="info">
-              <h3>{product.title}</h3>
+              <h3>{product.name}</h3>
               <p className="category">{product.category}</p>
-              <p className="price">${product.price.toFixed(2)}</p> 
+              <p className="price">${product.price.toLocaleString('es-CO')}</p> 
             </div>
           </div>
         ))}

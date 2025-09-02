@@ -1,37 +1,71 @@
+/* Importación de fuentes de Google */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Montserrat:wght@400;500&display=swap');
 
-.footer {
-  background-color: #1a1a1a; 
-  color: #f0f0f0; 
-  font-family: sans-serif;
-  padding: 3rem 1rem; 
-  text-align: center;
-  border-top: 1px solid #333; 
+/* --- Paleta de colores --- */
+:root {
+    --color-fondo: #F2F2F2;
+    --color-texto-oscuro: #333333;
+    --color-acento: #E5C9C9;
+    --color-acento-hover: #D4AF37;
+}
+
+/* --- Estilos principales del footer --- */
+.main-footer {
+    background-color: white;
+    padding: 60px 50px 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-texto-oscuro);
 }
 
 .footer-content {
-  max-width: 1200px; 
-  margin: 0 auto;
+    display: flex;
+    justify-content: center; /* Centra el contenido en el medio */
+    text-align: center;
 }
 
-.content p {
-  margin: 0 0 1.5rem 0; 
-  font-size: 0.9rem;
-  line-height: 1.5;
+/* --- Estilos del logo y la información de la marca --- */
+.brand-info {
+    max-width: 400px;
 }
 
-.links {
-  display: flex;
-  justify-content: center;
-  gap: 1.5rem; 
+.footer-logo {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.8em;
+    font-weight: 700;
+    margin: 0 0 10px;
+    color: var(--color-texto-oscuro);
 }
 
-.links a {
-  color: #f0f0f0;
-  text-decoration: none;
-  font-weight: 600; 
-  transition: color 0.3s ease; 
+.footer-slogan {
+    font-size: 0.9em;
+    line-height: 1.6;
+    color: #555;
+    margin: 0 0 20px;
 }
 
-.links a:hover {
-  color: rgb(150, 182, 197);
+.social-links {
+    display: flex;
+    justify-content: center; 
+    gap: 20px;
+}
+
+.social-links a {
+    color: var(--color-texto-oscuro);
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: var(--color-acento-hover);
+}
+
+/* --- Estilos para la sección de copyright --- */
+.footer-bottom {
+    margin-top: 40px;
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 20px;
+    font-size: 0.8em;
+    color: #777;
 }
