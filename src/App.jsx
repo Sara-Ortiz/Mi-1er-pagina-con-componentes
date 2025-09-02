@@ -1,8 +1,9 @@
 
 import './App.css'; 
-import Header from './components/header';
-import ProductSection from './components/products'; 
-import Footer from './components/footer';
+
+import Header from './feactures/shared/components/header';
+import ProductSection from './feactures/shared/components/products';
+import Footer from './feactures/shared/components/footer';
 
 
 function App() {

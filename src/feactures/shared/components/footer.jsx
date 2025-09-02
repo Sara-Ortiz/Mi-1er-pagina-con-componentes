@@ -2,6 +2,7 @@ import React from 'react';
 import '../components_style/footer.css'; 
 
 
+
 function Footer() {
   return (
    

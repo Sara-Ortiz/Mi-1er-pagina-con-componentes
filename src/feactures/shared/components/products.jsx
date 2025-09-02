@@ -1,6 +1,5 @@
 import React from 'react';
 import '../components_style/products.css'; 
-// import productsData from '../dataJs/products.json'; // La ruta puede variar según tu estructura
 import productsData from '../dataJSON/joyasData.json'
 
 
