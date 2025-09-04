@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1",
+    "name": "Anillo de Cuarzo Rosa",
+    "price": 65000,
+    "image_url": "https://i.pinimg.com/736x/4d/21/ac/4d21ac75fcc8f834a498af93fffcbca1.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Pendientes de Cobre Orgánico",
+    "price": 35000,
+    "image_url": "https://i.pinimg.com/736x/25/d2/ac/25d2acd3db50ef90157dac91e6ba914a.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Collar de Turquesa Natural",
+    "price": 80000,
+    "image_url": "https://i.pinimg.com/1200x/b8/08/68/b80868f18c3cbc9aaf8af00d732bff7d.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Brazalete de Cobre con Perlas",
+    "price": 88000,
+    "image_url": "https://i.pinimg.com/736x/c7/92/80/c792809258dd2778d24e3ded3fdafc42.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Anillo de dos piezas",
+    "price": 75000,
+    "image_url": "https://i.pinimg.com/1200x/ff/86/4b/ff864b93f798ece08afd7f8abd92919e.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Collar de Perla Natural",
+    "price": 95000,
+    "image_url": "https://i.pinimg.com/1200x/14/8f/f2/148ff2fc6bde387dbaeefca8b0b07d9e.jpg"
+  },
+  {
+    "id": "7",
+    "name": "Anillo de Brazo con Piedra Natural",
+    "price": 120000,
+    "image_url": "https://i.pinimg.com/1200x/f6/de/f5/f6def5a96758a5d2fc8f28d4269c62ff.jpg"
+  },
+  {
+    "id": "8",
+    "name": "Pendientes de Plata Orgánica",
+    "price": 85000,
+    "image_url": "https://i.pinimg.com/1200x/a2/84/99/a284997a6cdcbe2bf80484eb245c0a5c.jpg"
+  },
+  {
+    "id": "9",
+    "name": "Anillo de Serpiente con Piedra",
+    "price": 70000,
+    "image_url": "https://i.pinimg.com/736x/a9/bc/73/a9bc732de0d1b59dc34331865817ccdf.jpg"
+  },
+  {
+    "id": "10",
+    "name": "Pendientes Sol y Luna",
+    "price": 50000,
+    "image_url": "https://i.pinimg.com/736x/5f/75/66/5f75665a495a44d84a14f3d085290ddb.jpg"
+  },
+  {
+    "id": "11",
+    "name": "Gargantilla de Conchas",
+    "price": 60000,
+    "image_url": "https://i.pinimg.com/1200x/e8/16/70/e8167031ccedefacf3432ac0550c1c4c.jpg"
+  },
+  {
+    "id": "12",
+    "name": "Collar Planeta",
+    "price": 45000,
+    "image_url": "https://i.pinimg.com/736x/b0/ac/20/b0ac2038bb662d5ce395ee6148d227b4.jpg"
+  }
+]

@@ -1,0 +1,61 @@
+
+:root {
+    --color-fondo: #F2F2F2;
+    --color-texto-oscuro: #333333;
+    --color-acento: #E5C9C9; /* Rosa pálido para acentos */
+}
+
+/* --- Estilos Generales del Componente --- */
+.main-header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 25px 50px;
+    background-color: var(--color-fondo) ; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); 
+}
+
+
+.logo {
+    font-family: 'Cormorant Garamond', serif; 
+    font-size: 2.2em;
+    font-weight: 700;
+    color: var(--color-texto-oscuro);
+    margin: 0; 
+}
+
+.main-nav {
+    display: flex;
+    gap: 40px; /* Espacio entre los enlaces */
+}
+
+.main-nav a {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--color-texto-oscuro);
+    text-decoration: none; 
+    transition: color 0.3s ease; 
+}
+
+.main-nav a:hover {
+    color: var(--color-acento); 
+}
+
+
+.header-icons {
+    display: flex;
+    gap: 20px; 
+}
+
+.icon-link {
+    font-size: 1.5em;
+    color: var(--color-texto-oscuro);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.icon-link:hover {
+    color: var(--color-acento); 
+}
